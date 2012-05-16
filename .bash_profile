@@ -58,8 +58,8 @@ bash_prompt
 unset bash_prompt
 
 # aliases
-alias ls="ls -G"
-alias rst="rails server thin"
+alias ls="ls -lGh"
 alias be="bundle exec"
+alias sp="cd ~/dev/sponsorpay"
 
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
