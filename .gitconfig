@@ -22,7 +22,7 @@
   autosetupmerge = true
 [alias]
   ci = commit
-  st = status
+  st = status -sb
   br = branch
   co = checkout
   df = diff
