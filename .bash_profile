@@ -1,5 +1,5 @@
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
-export EDITOR="mvim"
+export EDITOR="vim"
 
 [ -f ~/.git-bash-completion.sh ] && . ~/.git-bash-completion.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
