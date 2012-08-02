@@ -1,4 +1,5 @@
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
+export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 
 [ -f ~/.git-bash-completion.sh ] && . ~/.git-bash-completion.sh
