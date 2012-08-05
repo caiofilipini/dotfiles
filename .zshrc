@@ -53,3 +53,4 @@ export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
 alias ls="ls -lGh"
 alias be="bundle exec"
 alias sp="cd ~/dev/sponsorpay"
+alias vim="mvim -v"
