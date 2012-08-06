@@ -45,7 +45,7 @@ plugins=(git rvm)
 source $ZSH/oh-my-zsh.sh
 
 rvm_info='$(rvm_prompt_info)'
-RPROMPT="%{$fg_bold[green]%}${rvm_info}%{$reset_color%}"
+RPROMPT="%{$fg_bold[yellow]%}${rvm_info}%{$reset_color%}"
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/opt/local/bin:/opt/local/sbin
