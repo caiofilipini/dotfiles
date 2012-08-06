@@ -6,6 +6,7 @@ export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="mvim -v"
 
 # RVM
+export PATH=$PATH:$HOME/.rvm/bin
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Path to your oh-my-zsh configuration.
@@ -47,7 +48,7 @@ rvm_info='$(rvm_prompt_info)'
 RPROMPT="%{$fg_bold[green]%}${rvm_info}%{$reset_color%}"
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=$PATH:/usr/local/bin:/opt/local/bin:/opt/local/sbin
 
 # aliases
 alias ls="ls -lGh"
