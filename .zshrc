@@ -3,7 +3,7 @@ export LANG=en_US.UTF-8
 
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
 export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
-export EDITOR="mvim -v"
+export EDITOR="vim"
 
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin
@@ -54,4 +54,3 @@ export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
 alias ls="ls -lGh"
 alias be="bundle exec"
 alias sp="cd ~/dev/sponsorpay"
-alias vim="mvim -v"
