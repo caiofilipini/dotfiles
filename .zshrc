@@ -1,10 +1,10 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
 export JAVA_TOOL_OPTIONS='-Djava.awt.headless=true'
 export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
+export DISPLAY=localhost:0.0
 
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin
