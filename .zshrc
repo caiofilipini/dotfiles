@@ -5,6 +5,7 @@ export JAVA_TOOL_OPTIONS='-Djava.awt.headless=true'
 export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
+export ODBCINI="$HOME/.odbc.ini"
 
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin
