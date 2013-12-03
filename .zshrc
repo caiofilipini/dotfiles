@@ -6,6 +6,7 @@ export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
 export ODBCINI="$HOME/.odbc.ini"
+export GOPATH="$HOME/dev/go"
 
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin
@@ -57,4 +58,4 @@ alias ls="ls -lGh"
 alias be="bundle exec"
 alias sp="cd ~/dev/sponsorpay"
 
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/heroku/bin:$PATH:$GOPATH/bin"
