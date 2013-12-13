@@ -7,6 +7,7 @@ export EDITOR="vim"
 export DISPLAY=localhost:0.0
 export ODBCINI="$HOME/.odbc.ini"
 export GOPATH="$HOME/dev/go"
+export DISABLE_AUTO_TITLE=true
 
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin
