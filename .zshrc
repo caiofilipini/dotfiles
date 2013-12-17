@@ -6,7 +6,7 @@ export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
 export ODBCINI="$HOME/.odbc.ini"
-export GOPATH="$HOME/dev/go"
+export GOPATH="$HOME/dev/go:$HOME/dev/programming-in-go"
 export DISABLE_AUTO_TITLE=true
 
 # RVM
