@@ -1,5 +1,5 @@
 [user]
-	name = Caio Filipini
+  name = Caio Filipini
   email = caiofilipini@gmail.com
 [color]
   branch = auto
@@ -28,16 +28,7 @@
   df = diff
   lg = log -p
   who = shortlog -s --
-[merge]
-	tool = diffmerge
-[mergetool "diffmerge"]
-	cmd = diffmerge --merge\n--result=$MERGED $LOCAL $BASE $REMOTE
-	trustExitCode = true
-[diff]
-	tool = diffmerge
-[difftool "diffmerge"]
-	cmd = diffmerge $LOCAL $REMOTE
 [format]
   pretty = %Cgreen%h%Creset %Cblue[%cr]%Creset (%an) %s
 [init]
-	templatedir = ~/.git_template
+  templatedir = ~/.git_template
