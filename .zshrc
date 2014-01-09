@@ -54,8 +54,9 @@ RPROMPT="%{$fg_bold[yellow]%}$ruby_info%{$reset_color%}"
 # aliases
 alias ls="ls -lGh"
 alias be="bundle exec"
-alias sp="cd ~/dev/sponsorpay"
 alias ruby-install="ruby-install -s ~/.rubies/.src"
 
 # Customize to your needs...
 export PATH=/usr/local/heroku/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:$GOPATH/bin
+
+export CDPATH=$HOME/dev/sponsorpay
