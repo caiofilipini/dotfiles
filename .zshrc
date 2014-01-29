@@ -6,7 +6,7 @@ export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
 export ODBCINI="$HOME/.odbc.ini"
-export GOPATH="$HOME/dev/programming-in-go:$HOME/dev/go"
+export GOPATH="$HOME/dev/programming-in-go:$HOME/dev/casa-do-codigo/go/exemplos:$HOME/dev/go"
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
@@ -59,4 +59,4 @@ alias ruby-install="ruby-install -s ~/.rubies/.src"
 # Customize to your needs...
 export PATH=/usr/local/heroku/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:$GOPATH/bin
 
-export CDPATH=$HOME/dev/sponsorpay
+export CDPATH=.:$HOME/dev/sponsorpay
