@@ -13,6 +13,9 @@ setopt hist_ignore_space
 setopt inc_append_history
 setopt share_history # share command history data
 
+# force emacs key bindings for command line
+bindkey -e
+
 # directory navigation
 setopt auto_pushd
 setopt pushd_ignore_dups
