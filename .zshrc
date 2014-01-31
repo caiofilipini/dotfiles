@@ -25,7 +25,6 @@ export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
 export ODBCINI="$HOME/.odbc.ini"
-export GOPATH="$HOME/dev/programming-in-go:$HOME/dev/casa-do-codigo/go/exemplos:$HOME/dev/go"
 
 # auto-completion
 zstyle ':completion:*:*:*:*:*' menu select
@@ -38,5 +37,7 @@ source /usr/local/share/chruby/auto.sh
 precmd_functions+=("chruby_auto")
 
 # paths
-export PATH=/usr/local/heroku/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:$GOPATH/bin
+MAIN_GO_PATH="$HOME/dev/go"
+export GOPATH="$MAIN_GO_PATH:$HOME/dev/programming-in-go:$HOME/dev/casa-do-codigo/go/exemplos"
+export PATH=/usr/local/bin:$PATH:$GOPATH/bin
 export CDPATH=.:$HOME/dev/sponsorpay
