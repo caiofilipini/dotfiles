@@ -19,3 +19,6 @@
 .pry_history
 .htoprc
 .cups
+.npm
+.gnupg
+.keybase*
