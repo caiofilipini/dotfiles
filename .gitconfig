@@ -32,3 +32,5 @@
   pretty = %Cgreen%h%Creset %Cblue[%cr]%Creset (%an) %s
 [init]
   templatedir = ~/.git_template
+[core]
+  pager = less -+S
