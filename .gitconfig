@@ -26,6 +26,7 @@
   br = branch
   co = checkout
   df = diff
+  wd = diff --word-diff
   lg = log -p
   who = shortlog -s --
 [format]
