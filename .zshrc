@@ -41,6 +41,6 @@ precmd_functions+=("chruby_auto")
 
 # paths
 MAIN_GO_PATH="$HOME/dev/go"
-export GOPATH="$MAIN_GO_PATH:$HOME/dev/casa-do-codigo/exemplos"
+export GOPATH="$MAIN_GO_PATH:$HOME/dev/casadocodigo/exemplos"
 export PATH=/usr/local/bin:$PATH:$MAIN_GO_PATH/bin
 export CDPATH=.:$HOME/dev/sponsorpay
