@@ -6,6 +6,7 @@
 .vimrc
 .vim/
 .viminfo
+.vim-go/
 .DS_Store
 .Trash/
 .cache/
