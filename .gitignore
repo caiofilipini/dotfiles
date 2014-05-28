@@ -22,3 +22,4 @@
 .npm
 .gnupg
 .keybase*
+.rediscli_history
