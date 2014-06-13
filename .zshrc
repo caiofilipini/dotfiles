@@ -29,6 +29,8 @@ export EDITOR="vim"
 export DISPLAY=localhost:0.0
 export ODBCINI="$HOME/.odbc.ini"
 
+ulimit -Sn 2048
+
 # auto-completion
 zstyle ':completion:*:*:*:*:*' menu select
 autoload -U compinit
