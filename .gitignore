@@ -24,3 +24,4 @@
 .gnupg
 .keybase*
 .rediscli_history
+.scala_history
