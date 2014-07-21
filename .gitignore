@@ -25,3 +25,5 @@
 .keybase*
 .rediscli_history
 .scala_history
+.sbt
+.ivy2
