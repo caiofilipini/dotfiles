@@ -28,3 +28,6 @@
 .sbt
 .ivy2
 .chef
+.config
+.heroku
+.netrc
