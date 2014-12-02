@@ -27,7 +27,6 @@ export JAVA_TOOL_OPTIONS='-Djava.awt.headless=true'
 export SCALA_HOME=/usr/local/Cellar/scala/2.9.2
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
-export ODBCINI="$HOME/.odbc.ini"
 
 ulimit -Sn 2048
 
@@ -45,4 +44,4 @@ precmd_functions+=("chruby_auto")
 MAIN_GO_PATH="$HOME/dev/go"
 export GOPATH="$MAIN_GO_PATH:$HOME/dev/casadocodigo/exemplos"
 export PATH=/usr/local/bin:$PATH:$MAIN_GO_PATH/bin
-export CDPATH=.:$HOME/dev/sponsorpay
+export CDPATH=.:$HOME/dev/soundcloud
