@@ -31,3 +31,7 @@
 .config
 .heroku
 .netrc
+.m2
+.IdeaIC14
+.erlang.cookie
+.zshrc_private
