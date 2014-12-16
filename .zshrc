@@ -47,4 +47,3 @@ precmd_functions+=("chruby_auto")
 # paths
 export GOPATH="$$HOME/dev/go"
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOPATH/bin
-export CDPATH=.:$HOME/dev/soundcloud
