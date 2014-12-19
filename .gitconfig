@@ -35,3 +35,5 @@
   templatedir = ~/.git_template
 [core]
   pager = less -+S
+[push]
+  default = simple
