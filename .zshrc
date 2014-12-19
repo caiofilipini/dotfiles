@@ -45,5 +45,5 @@ source /usr/local/share/chruby/auto.sh
 precmd_functions+=("chruby_auto")
 
 # paths
-export GOPATH="$$HOME/dev/go"
+export GOPATH="$HOME/dev/go"
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOPATH/bin
