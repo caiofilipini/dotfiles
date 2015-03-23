@@ -36,3 +36,5 @@
 .erlang.cookie
 .zshrc_private
 .psql_history
+.android
+.gradle
