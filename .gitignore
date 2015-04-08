@@ -38,3 +38,6 @@
 .psql_history
 .android
 .gradle
+.idea-build/
+.cocoapods/
+.Genymobile/
