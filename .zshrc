@@ -28,7 +28,7 @@ fi
 # general variables
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
 
