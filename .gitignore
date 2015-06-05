@@ -41,3 +41,4 @@
 .idea-build/
 .cocoapods/
 .Genymobile/
+.local
