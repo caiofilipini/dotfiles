@@ -43,3 +43,4 @@
 .Genymobile/
 .local
 .node-gyp/
+.boot2docker/
