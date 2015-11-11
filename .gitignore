@@ -32,7 +32,7 @@
 .heroku
 .netrc
 .m2
-.IdeaIC14
+.IdeaIC1*
 .erlang.cookie
 .zshrc_private
 .psql_history
@@ -44,3 +44,4 @@
 .local
 .node-gyp/
 .boot2docker/
+.oracle_jre_usage/
