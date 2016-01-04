@@ -46,3 +46,4 @@
 .boot2docker/
 .oracle_jre_usage/
 .docker/
+.wget-hsts
