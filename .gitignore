@@ -47,3 +47,4 @@
 .oracle_jre_usage/
 .docker/
 .wget-hsts
+.emacs.d/
