@@ -48,3 +48,4 @@
 .docker/
 .wget-hsts
 .emacs.d/
+.aws/
