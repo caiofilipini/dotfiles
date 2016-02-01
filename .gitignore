@@ -49,3 +49,4 @@
 .wget-hsts
 .emacs.d/
 .aws/
+.vagrant.d/
