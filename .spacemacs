@@ -234,6 +234,8 @@ values."
    ;; delete only whitespace for changed lines or `nil' to disable cleanup.
    ;; (default nil)
    dotspacemacs-whitespace-cleanup nil
+   js-indent-level 2
+   js2-basic-offset 2
    ))
 
 (defun dotspacemacs/user-init ()
