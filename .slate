@@ -1,0 +1,22 @@
+config defaultToCurrentScreen true
+
+# Full screen
+bind f:ctrl;alt;cmd move screenOriginX;screenOriginY screenSizeX;screenSizeY
+
+# Center screen
+bind 5:ctrl;alt;cmd move screenOriginX+screenSizeX/2-windowSizeX/2;screenOriginY+screenSizeY/2-windowSizeY/2 windowSizeX;windowSizeY 
+
+# Center screen at 80% X and Y
+bind 8:ctrl;alt;cmd move screenOriginX+screenSizeX/2-windowSizeX/2;screenOriginY+screenSizeY/2-windowSizeY/2 screenSizeX*.8;screenSizeY*.8
+
+# Center screen at 80% X
+bind c:ctrl;alt;cmd move screenSizeX*.1;screenOriginY screenSizeX*.8;screenSizeY
+
+# Half screen left
+bind left:ctrl;alt;cmd move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+
+# Half screen right
+bind right:ctrl;alt;cmd move screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
+
+# Grid system
+bind space:ctrl;alt;cmd grid padding:5 0:10,5
