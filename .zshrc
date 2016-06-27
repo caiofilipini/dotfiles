@@ -28,7 +28,6 @@ fi
 # general variables
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export EDITOR="vim"
 export DISPLAY=localhost:0.0
 
@@ -45,5 +44,5 @@ source /usr/local/share/chruby/auto.sh
 precmd_functions+=("chruby_auto")
 
 # paths
-export GOPATH="$HOME/dev/go"
+export GOPATH=$HOME
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOPATH/bin
