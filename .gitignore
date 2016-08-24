@@ -50,3 +50,4 @@
 .emacs.d/
 .aws/
 .vagrant.d/
+.berkshelf/
