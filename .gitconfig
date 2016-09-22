@@ -29,6 +29,7 @@
   wd = diff --word-diff
   lg = log -p
   who = shortlog -s --
+  root = rev-parse --show-toplevel
 [format]
   pretty = %Cgreen%h%Creset %Cblue[%cr]%Creset (%an) %s
 [init]
