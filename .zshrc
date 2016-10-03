@@ -46,3 +46,5 @@ precmd_functions+=("chruby_auto")
 # paths
 export GOPATH=$HOME
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOPATH/bin
+
+eval "$(direnv hook zsh)"
