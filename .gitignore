@@ -52,6 +52,9 @@
 .vagrant.d/
 .berkshelf/
 .terraform.d/
+.yarn/
+.yarn-cache/
+.elm/
 bin/go-outline
 bin/go-symbols
 bin/gopkgs
