@@ -55,7 +55,4 @@
 .yarn/
 .yarn-cache/
 .elm/
-bin/go-outline
-bin/go-symbols
-bin/gopkgs
-bin/goreturns
+bin/
