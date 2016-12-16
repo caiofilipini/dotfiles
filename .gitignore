@@ -56,3 +56,4 @@
 .yarn-cache/
 .elm/
 bin/
+VirtualBox VMs/
