@@ -30,6 +30,7 @@
   lg = log -p
   who = shortlog -s --
   root = rev-parse --show-toplevel
+  pushf = push --force-with-lease
 [format]
   pretty = %Cgreen%h%Creset %Cblue[%cr]%Creset (%an) %s
 [init]
