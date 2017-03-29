@@ -11,6 +11,7 @@
 .Trash/
 .cache/
 .rubies/
+.bundle/
 .ssh/
 .subversion/
 .gem
