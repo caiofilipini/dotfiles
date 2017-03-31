@@ -58,3 +58,4 @@
 .elm/
 bin/
 VirtualBox VMs/
+.tmux/
