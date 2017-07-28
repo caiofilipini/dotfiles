@@ -30,5 +30,5 @@ function __git_branch() {
         fi
 }
 
-PROMPT='%F{red}➜ %f%b %F{cyan}%c$(__git_branch)%F{blue}%f%b'
+PROMPT='%(?.%F{green}➜.%F{red}➜)% %f%b %F{cyan}%c$(__git_branch)%F{blue}%f%b'
 RPROMPT='$(__ruby_version)'
