@@ -60,3 +60,5 @@ bin/
 VirtualBox VMs/
 .tmux/
 .kube/
+.boto
+.vscode/
