@@ -31,6 +31,7 @@
   who = shortlog -s --
   root = rev-parse --show-toplevel
   pushf = push --force-with-lease
+  brls = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 [format]
   pretty = %Cgreen%h%Creset %Cblue[%cr]%Creset (%an) %s
 [init]
