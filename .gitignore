@@ -35,6 +35,7 @@
 .netrc
 .node-gyp/
 .npm
+.nvm/
 .oracle_jre_usage/
 .pry_history
 .psql_history
