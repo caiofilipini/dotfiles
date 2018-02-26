@@ -27,6 +27,7 @@
 .idea-build/
 .irb_history
 .ivy2
+.k8s_bash_history
 .keybase*
 .kube/
 .lesshst
