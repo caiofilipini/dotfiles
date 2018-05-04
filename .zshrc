@@ -34,7 +34,7 @@ export DISPLAY=localhost:0.0
 ulimit -Sn 2048
 
 # auto-completion
-zstyle ':completion:*:*:*:*:*' menu select
+zstyle ':completion:*' menu select
 autoload -U compinit
 compinit
 
