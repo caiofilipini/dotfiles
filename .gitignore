@@ -43,6 +43,7 @@
 .psql_history
 .rediscli_history
 .rubies/
+.rustup/
 .sbt
 .scala_history
 .ssh/
