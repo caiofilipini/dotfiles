@@ -39,13 +39,17 @@ autoload -U compinit
 compinit
 
 # chruby
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
-precmd_functions+=("chruby_auto")
+if type chruby &> /dev/null; then
+  source /usr/local/share/chruby/chruby.sh
+  source /usr/local/share/chruby/auto.sh
+  precmd_functions+=("chruby_auto")
+fi
 
 # paths
 export GOPATH=$HOME
 export GOBIN=$GOPATH/bin
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOPATH/bin:$HOME/.cargo/bin
 
-eval "$(direnv hook zsh)"
+if type direnv &> /dev/null; then
+  eval "$(direnv hook zsh)"
+fi
