@@ -10,11 +10,11 @@ function __ruby_version {
 
 function __git_status() {
   STATUS=""
-  if [[ -n $(git status -s 2> /dev/null) ]]; then
+  if [[ -n $(git status -uno -s 2> /dev/null) ]]; then
     STATUS=" %F{yellow}✗$RESET_COLOR"
   fi
-  INDEX=$(git status --porcelain 2> /dev/null)
-  if $(echo "$INDEX" | grep '^?? ' &> /dev/null); then
+  INDEX=$(git ls-files -o --exclude-standard 2> /dev/null | wc -l | tr -d ' ')
+  if [[ $INDEX -ne 0 ]]; then
     STATUS="$STATUS%F{blue} ?$RESET_COLOR"
   fi
   echo $STATUS
