@@ -66,3 +66,5 @@
 .zshrc_private
 VirtualBox VMs/
 bin/
+pkg/
+src/
